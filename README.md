@@ -1,3 +1,4 @@
+![Responsivve portfolio website](dist/img/github-main.png)
 # modern-portfolio-traversyMedia
 Responsivve portfolio website
 
