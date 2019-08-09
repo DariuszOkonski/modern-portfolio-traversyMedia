@@ -143,7 +143,41 @@ main {
   }
 }
 
-//Button Stles
+//Contact Page
+.boxes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 1rem;
+
+  div {
+    font-size: 1.3rem;
+    border: 3px solid #fff;
+    padding: 1rem 2rem;
+    margin-bottom: 3rem;
+    cursor: pointer;
+    @include easeOut();
+
+    &:hover {
+      padding: 0.8rem 1.8rem;
+      background-color: $secondary-color;
+      color: set-text-color($secondary-color);
+
+      span {
+        color: set-text-color($secondary-color);
+      }
+    }
+  }
+}
+
+//Button Styles
+
+.container {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
 
 .btn {
   display: block;
